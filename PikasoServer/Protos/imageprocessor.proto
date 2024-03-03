@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+
+service ImageProcessor {
+  rpc ProcessImage (ImageProcessRequest) returns (ImageProcessResponse);
+}
+
+message ImageProcessRequest {
+  bytes image = 1;
+  bool convertToGrayscale = 2;
+  bool flipHorizontal = 3;
+  bool flipVertical = 4;
+  float rotateDegrees = 5;
+  int32 resizeWidth = 6;
+  int32 resizeHeight = 7;
+  bool generateThumbnail = 8;
+}
+
+message ImageProcessResponse {
+  bytes image = 1;
+}

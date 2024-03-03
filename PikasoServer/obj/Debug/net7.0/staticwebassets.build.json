@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WAuacrWMD5kqwKQB1h2Wa35H52bRul6kqhVdU5eA9hY=",
+  "Source": "PikasoServer",
+  "BasePath": "_content/PikasoServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
