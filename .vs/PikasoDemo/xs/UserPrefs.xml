@@ -1,24 +1,37 @@
-﻿<Properties StartupConfiguration="{C9D90FFC-64DC-4DC9-9EE5-86570FA21482}|https">
+﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{4D59D921-674F-4953-B7A9-CEFDBB0EBA7B}" ItemName="PikasoClient" ConfigurationId="Default" />
+        <StartupItem ItemId="{C9D90FFC-64DC-4DC9-9EE5-86570FA21482}" ItemName="PikasoServer" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.PikasoServer PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PikasoClient/Program.cs">
+  <MonoDevelop.Ide.ItemProperties.PikasoClient PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PikasoServer/Services/ImageProcessorService.cs">
     <Files>
-      <File FileName="PikasoServer/Services/ImageProcessorService.cs" Line="14" Column="31" />
-      <File FileName="PikasoClient/Program.cs" Line="9" Column="22" />
+      <File FileName="PikasoClient/Program.cs" />
+      <File FileName="PikasoClient/Protos/imageprocessor.proto" />
+      <File FileName="PikasoServer/Protos/imageprocessor.proto" />
+      <File FileName="PikasoServer/Services/GreeterService.cs" />
+      <File FileName="PikasoServer/Services/ImageProcessorService.cs" Line="30" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PikasoDemo" expanded="True">
             <Node name="PikasoClient" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Protos" expanded="True" />
             </Node>
             <Node name="PikasoServer" expanded="True">
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ImageProcessorService.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
