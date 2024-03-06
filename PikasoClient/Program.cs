@@ -11,6 +11,7 @@ class Program
 
         Console.Write("Enter the path to the image you wish to process: ");
         var inputPath = Console.ReadLine();
+        
         if (string.IsNullOrEmpty(inputPath) || !File.Exists(inputPath))
         {
             Console.WriteLine("File does not exist.");
@@ -78,42 +79,6 @@ class Program
         {
             Console.WriteLine($"Error: {ex.Message}");
         }
-        //try
-        //{
-        //    var reply = await client.ProcessImageAsync(request);
-        //    var tempFilePath = Path.GetTempFileName() + ".jpg"; // Ensure extension matches expected format
-        //    await File.WriteAllBytesAsync(tempFilePath, reply.Image.ToByteArray());
-
-        //    // Determine the action based on the operating system
-        //    if (System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Windows))
-        //    {
-        //        // Windows: Use 'cmd' to execute the 'start' command which opens the file with the default application
-        //        System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("cmd", $"/c start {tempFilePath}") { CreateNoWindow = true });
-        //    }
-        //    else
-        //    {
-        //        // For other operating systems, adjust accordingly. This is an example for Windows.
-        //        Console.WriteLine("Automatic opening is not configured for this OS.");
-        //    }
-        //}
-        //catch (Exception ex)
-        //{
-        //    Console.WriteLine($"Error: {ex.Message}");
-        //}
-        //try
-        //{
-        //    var reply = await client.ProcessImageAsync(request);
-        //    var tempFilePath = Path.GetTempFileName() + ".jpg"; // Make sure the extension is appropriate for the image format
-        //    await File.WriteAllBytesAsync(tempFilePath, reply.Image.ToByteArray());
-        //    Console.WriteLine("Opening processed image...");
-
-        //    // Open the processed image using the default viewer on macOS
-        //    System.Diagnostics.Process.Start("open", tempFilePath);
-        //}
-        //catch (Exception ex)
-        //{
-        //    Console.WriteLine($"Error: {ex.Message}");
-        //}
     }
 
     static float AskUserForFloat(string message)
