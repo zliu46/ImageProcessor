@@ -780,11 +780,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoServer/PikasoServer.csproj",
+      "projectUniqueName": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoServer/PikasoServer.csproj",
       "projectName": "PikasoServer",
-      "projectPath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoServer/PikasoServer.csproj",
+      "projectPath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoServer/PikasoServer.csproj",
       "packagesPath": "/Users/zhouliu/.nuget/packages/",
-      "outputPath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoServer/obj/",
+      "outputPath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoServer/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zhouliu/.nuget/NuGet/NuGet.Config"

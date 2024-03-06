@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/4tvZ1ldkj+ZU24IyiaF2e4/wpW3Nd4FVNpv3RDKmAzXUDKVY9llyGQLzeWdJQZ1oUse/YwGShyQZdd4uIOrlQ==",
+  "dgSpecHash": "NYk4EZS0CVFm5fXh4nR/9DkEmmVLP2I5uyI1Ra57CYpt7Mvvu6RYqDouBPo4tvQ8scTngHCD1ithJpXDKUDUcA==",
   "success": true,
-  "projectFilePath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/PikasoClient.csproj",
+  "projectFilePath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/PikasoClient.csproj",
   "expectedPackageFiles": [
     "/Users/zhouliu/.nuget/packages/google.protobuf/3.25.3/google.protobuf.3.25.3.nupkg.sha512",
     "/Users/zhouliu/.nuget/packages/grpc.core.api/2.61.0/grpc.core.api.2.61.0.nupkg.sha512",

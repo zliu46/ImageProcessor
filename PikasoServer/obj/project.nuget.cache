@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7axz9v2mLvcvClsr6HWfapazrpFxn3mXlshYMUw42q86c1GgDX0kj3oCLbRScv4+FpRcKZ7mxpdULnk1f2pOQ==",
+  "dgSpecHash": "vFMCQQB6kacGBUb9cyytLd+3Eo/npbvCaiGE81IE2ZlndeeoKpnfmHgfJBDicWruvr+elXnb01UhPAlhb5Ur0g==",
   "success": true,
-  "projectFilePath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoServer/PikasoServer.csproj",
+  "projectFilePath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoServer/PikasoServer.csproj",
   "expectedPackageFiles": [
     "/Users/zhouliu/.nuget/packages/google.protobuf/3.21.5/google.protobuf.3.21.5.nupkg.sha512",
     "/Users/zhouliu/.nuget/packages/grpc.aspnetcore/2.49.0/grpc.aspnetcore.2.49.0.nupkg.sha512",

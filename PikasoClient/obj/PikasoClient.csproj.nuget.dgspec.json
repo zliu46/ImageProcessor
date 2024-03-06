@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/PikasoClient.csproj": {}
+    "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/PikasoClient.csproj": {}
   },
   "projects": {
-    "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/PikasoClient.csproj": {
+    "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/PikasoClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/PikasoClient.csproj",
+        "projectUniqueName": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/PikasoClient.csproj",
         "projectName": "PikasoClient",
-        "projectPath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/PikasoClient.csproj",
+        "projectPath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/PikasoClient.csproj",
         "packagesPath": "/Users/zhouliu/.nuget/packages/",
-        "outputPath": "/Users/zhouliu/Desktop/Final_Image_Processor/PikasoDemo/PikasoClient/obj/",
+        "outputPath": "/Users/zhouliu/Desktop/ImageProcessor/ImageProcessor/PikasoClient/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/zhouliu/.nuget/NuGet/NuGet.Config"
