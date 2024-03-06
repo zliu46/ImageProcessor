@@ -1,11 +1,7 @@
 ﻿using Google.Protobuf;
 using Grpc.Core;
-using PikasoServer; // Adjust this using the correct namespace for your generated proto code
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
-using SixLabors.ImageSharp.Processing.Processors;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace PikasoServer.Services
 {
